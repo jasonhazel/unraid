@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>DataEntry</Name>
   <Repository>docker.hazel.cc/data-entry</Repository>
-  <Registry/>
+  <Registry>https://docker.hazel.cc/data-entry</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
