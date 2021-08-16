@@ -8,7 +8,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>hhttps://github.com/jasonhazel/DASHBOARD</Project>
+  <Project>https://github.com/jasonhazel/DASHBOARD</Project>
   <Overview>DASHBOARD aims to consolidate the management of multiple applications into a simple interface.</Overview>
   <Category>Tools: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
