@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DataEntry</Name>
+  <Repository>docker.hazel.cc/data-entry</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1622236365</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3030</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/data-entry/db</HostDir>
+      <ContainerDir>/app/database</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>production</Value>
+      <Name>RAILS_ENV</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="RAILS_ENV" Target="RAILS_ENV" Default="production" Mode="" Description="Container Variable: RAILS_ENV" Type="Variable" Display="always" Required="false" Mask="false">production</Config>
+  <Config Name="HTTP" Target="3000" Default="" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always" Required="false" Mask="false">3030</Config>
+  <Config Name="DB" Target="/app/database" Default="" Mode="rw" Description="Container Path: /app/database" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/data-entry/db</Config>
+</Container>

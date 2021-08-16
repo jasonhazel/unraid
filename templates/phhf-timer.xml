@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>PHHFTimer</Name>
+  <Name>PowerHalfHour</Name>
   <Repository>docker.hazel.cc/phhf</Repository>
   <Registry/>
   <Network>bridge</Network>
@@ -12,8 +12,8 @@
   <Overview/>
   <Category/>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
-  <TemplateURL></TemplateURL>
-  <Icon/>
+  <TemplateURL>https://code.hazel.cc/Unraid/templates/raw/branch/master/phhf-timer.xml</TemplateURL>
+  <Icon>https://code.hazel.cc/Unraid/templates/raw/branch/master/icons/phhf-timer.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
