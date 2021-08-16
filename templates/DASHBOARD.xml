@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>DASHBOARD</Name>
-  <Repository>docker.hazel.cc/dashboard</Repository>
+  <Repository>mrhazel/dashboard</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>https://code.hazel.cc/jason/dashboard</Project>
+  <Project>hhttps://github.com/jasonhazel/DASHBOARD</Project>
   <Overview>DASHBOARD aims to consolidate the management of multiple applications into a simple interface.</Overview>
   <Category>Tools: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
