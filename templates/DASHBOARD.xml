@@ -11,7 +11,7 @@
   <Project>hhttps://github.com/jasonhazel/DASHBOARD</Project>
   <Overview>DASHBOARD aims to consolidate the management of multiple applications into a simple interface.</Overview>
   <Category>Tools: Status:Beta</Category>
-  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
@@ -46,7 +46,7 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="HTTP" Target="3000" Default="" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always" Required="false" Mask="false">8008</Config>
-  <Config Name="DB" Target="/app/database" Default="" Mode="rw" Description="Container Path: /app/database" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dashboard/db</Config>
+  <Config Name="HTTP Port" Target="3000" Default="" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always" Required="false" Mask="false">8008</Config>
+  <Config Name="Database" Target="/app/database" Default="" Mode="rw" Description="Container Path: /app/database" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/dashboard/db</Config>
   <Config Name="Rails Environment" Target="RAILS_ENV" Default="" Mode="" Description="Container Variable: RAILS_ENV" Type="Variable" Display="advanced" Required="false" Mask="false">production</Config>
 </Container>
